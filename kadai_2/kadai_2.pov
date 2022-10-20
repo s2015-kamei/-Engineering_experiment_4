@@ -39,19 +39,19 @@ cylinder{
 
 
 #macro mainbody(lead_texture, surface_texture, body_texture)
-union{
-    difference {
-        object{mainbody_parts_1}
-        object{mainbody_parts_1 scale <0.99, 1.01, 0.99>}
-        texture{surface_texture}
+    union{
+        difference {
+            object{mainbody_parts_1}
+            object{mainbody_parts_1 scale <0.99, 1.01, 0.99>}
+            texture{surface_texture}
+        }
+        difference {
+            object{mainbody_parts_1 scale <0.99, 0.99, 0.99>}
+            object{mainbody_parts_2}
+            texture{body_texture}
+        }
+        object{mainbody_parts_2 texture{lead_texture}}
     }
-    difference {
-        object{mainbody_parts_1 scale <0.99, 0.99, 0.99>}
-        object{mainbody_parts_2}
-        texture{body_texture}
-    }
-    object{mainbody_parts_2 texture{lead_texture}}
-}
 #end
 
 #macro pencil(lead_texture, surface_texture, body_texture)

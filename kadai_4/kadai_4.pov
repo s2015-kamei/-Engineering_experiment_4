@@ -163,11 +163,18 @@
 #declare BP = Merge_Arrays(BP, TMP);
 
 #declare TMP[0] = BP[dimension_size(BP, 1) - 1];
-#declare TMP[3] = TMP[0] + <-0.58, -0.5>;
+#declare TMP[3] = <0.0, 1.5>;
 #declare TMP[1] = TMP[0] + PtoR(0.3, -90);
-#declare TMP[2] = TMP[3] + PtoR(0.2, -150);
+#declare TMP[2] = TMP[3] + PtoR(0.2, 90);
 
 #declare BP = Merge_Arrays(BP, TMP);
+
+// #declare TMP[0] = BP[dimension_size(BP, 1) - 1];
+// #declare TMP[3] = TMP[0] - <0.15, 0.3>;
+// #declare TMP[1] = TMP[0] + PtoR(0.1, -150);
+// #declare TMP[2] = TMP[3] + PtoR(0.2, 90);
+
+// #declare BP = Merge_Arrays(BP, TMP);
 
 
 camera{

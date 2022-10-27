@@ -324,7 +324,7 @@
 #end // End of macro Bezier_Point(...)
 
 
-#declare SplineSweepRadius = 0.02;
+#declare SplineSweepRadius = 0.01;
 #declare SplineSweepColor = Green;
 #declare SplineHandleColor = White-SplineSweepColor;
 

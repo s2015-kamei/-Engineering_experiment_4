@@ -1,0 +1,108 @@
+\ProvidesPackage{expreport}
+
+\RequirePackage{multirow}
+\RequirePackage{listings,jlisting}
+\RequirePackage{xcolor}
+
+\def\@period{ }
+
+\def\@subject{ }
+\def\@author{ }
+\def\@pnumber{ }
+\def\@period{ }
+\def\@deadline{ }
+\def\@thema{ }
+
+\def\maketitle{}
+
+
+\def\subject#1{\def\@subject{#1}}
+\def\author#1{\def\@author{#1}}
+\def\pnumber#1{\def\@pnumber{#1}}
+\def\period#1{\def\@period{#1}}
+\def\deadline#1{\def\@deadline{#1}}
+\def\thema#1{\def\@thema{#1}}
+\def\teachers#1{\def\@teachers{#1}}
+
+
+
+\def\@maketitle{%
+\begin{center}
+\vspace*{10mm}
+{\textgt{\Large 大分工業高等専門学校}}\par\vspace{10pt}
+{\textgt{\Large 情報工学科　3年}}\par\vspace{10pt}
+{\textgt{\LARGE \@subject}}\par\vspace{10pt}
+\end{center}
+
+\begin{center}
+%\begin{tabular}{|>{\centering\arraybackslash}p{50mm}|>{\centering\arraybackslash}p{90mm}|}
+\begin{tabular}{|c|c|}
+\hline
+\textgt{実験テーマ} & \parbox{90mm}{\centering\textgt{\@thema}} \\
+\hline
+\textgt{担当教員} & \textgt{\@teachers} \\
+\hline
+\textgt{実験実施日} & \textgt{\@period} \\
+\hline
+\textgt{レポート提出日} & \textgt{\@deadline} \\
+\hline
+\end{tabular}
+ \end{center}
+
+\vspace*{20mm}
+ 
+\begin{center}
+\gtfamily
+\begin{tabular}{|c|l|c|c|c|}
+\hline
+\multirow{3}{*}{\parbox{10pt}{\vspace{10pt} 評\\価\\項\\目}}   &  １．実験の目的を理解しているか．（考察も含む）& 15点 & 　　& 評　　点 \\
+\cline{2-5}
+&  ２．実験の基礎となる知識がまとめられているか．& 20点 & 　　&  \\
+\cline{2-4}
+&  ３．実験の内容と結果が適切に説明されているか．& 30点 & 　　&  \\
+\cline{2-4}
+&  ４．図や表のキャプションは適切か．          & 20点 & 　　&  \\
+\cline{2-4}
+&  ５．考察は事実と自分の考えが述べられているか．& 15点 & 　　&  \\
+\hline
+\end{tabular}
+ \end{center}
+
+
+\vspace*{20mm}
+\begin{center}
+\gtfamily\Large
+\def\arraystretch{2}
+\begin{tabular}{|c|c|c|c|}
+ \hline
+ 出席番号 & \parbox{20pt}{\centering\@pnumber} & 氏　名　& \parbox{50mm}{\centering\@author} \\
+ \hline
+\end{tabular}
+\end{center}
+
+\thispagestyle{empty}
+
+\newpage
+}
+
+\definecolor{light-gray}{gray}{0.95}
+
+\lstset{
+	language=POV,
+	columns=fullflexible, 
+	backgroundcolor=\color{light-gray},
+	xleftmargin=0.5cm,
+	framexleftmargin = 1em,
+	frame=tlbr,
+	framesep=4pt,
+	framerule=0pt
+}
+
+\lstdefinestyle{pov}{
+	language=POV,
+	morekeywords={for, cutaway_textures, sphere_sweep}
+}
+\def\lstlistingname{リスト}
+
+\def\maketitle{\@maketitle}
+\setcounter{page}{0}

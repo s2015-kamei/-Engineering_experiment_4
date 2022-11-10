@@ -1,0 +1,598 @@
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.6.7)  10 NOV 2022 14:36
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+pLaTeX2e <2020-02-02u03>+2 (based on LaTeX2e <2020-02-02> patch level 2)
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2020/02/02 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen150
+\jsc@mmm=\dimen151
+\jsc@smallskipamount=\skip47
+LaTeX Info: Redefining \textmc on input line 496.
+LaTeX Info: Redefining \textgt on input line 498.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 560.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 751.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 751.
+\fullwidth=\dimen152
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 904.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 904.
+\c@part=\count166
+\c@section=\count167
+\c@subsection=\count168
+\c@subsubsection=\count169
+\c@paragraph=\count170
+\c@subparagraph=\count171
+\@abstractbox=\box61
+\c@figure=\count172
+\c@table=\count173
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\jsc@tocl@width=\dimen153
+\@lnumwidth=\dimen154
+\bibindent=\dimen155
+(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count174
+)
+(./expreport.sty
+Package: expreport 
+ (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count175
+\multirow@dima=\skip51
+\bigstrutjot=\dimen156
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count176
+\lst@gtempboxa=\box62
+\lst@token=\toks16
+\lst@length=\count177
+\lst@currlwidth=\dimen157
+\lst@column=\count178
+\lst@pos=\count179
+\lst@lostspace=\dimen158
+\lst@width=\dimen159
+\lst@newlines=\count180
+\lst@lineno=\count181
+\lst@maxwidth=\dimen160
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count182
+\lst@skipnumbers=\count183
+\lst@framebox=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(./jlisting.sty
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count184
+\lst@inputfile=\read2
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvipdfmx.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+)
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen163
+\Gm@wd@mp=\dimen164
+\Gm@odd@mp=\dimen165
+\Gm@even@mp=\dimen166
+\Gm@layoutwidth=\dimen167
+\Gm@layoutheight=\dimen168
+\Gm@layouthoffset=\dimen169
+\Gm@layoutvoffset=\dimen170
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/platex/japanese-otf-uptex/otf.sty
+Package: otf 2019/04/01 v1.7b8 psitau, u0.24 ttk
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 314.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
+(Font)                  JY2/mc/m/n --> JY2/hmc/m/n on input line 314.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/gt/m/n --> JY2/hmc/m/n on input line 314.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/hmc/m/n --> JY2/hmc/bx/n on input line 316.
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 317.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
+(Font)                  JY2/gt/m/n --> JY2/hgt/m/n on input line 317.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY2/gt/m/n --> JY2/hgt/m/n on input line 317.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY2/hgt/m/n --> JY2/hgt/bx/n on input line 318.
+
+(/usr/share/texlive/texmf-dist/tex/platex/japanese-otf/ajmacros.sty
+Package: ajmacros 2019/04/01 21:00 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp
+>
+\@tempcntc=\count188
+\@tempcntd=\count189
+\@tempcnte=\count190
+\@tempcntf=\count191
+))
+(/usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+Package: pxchfon 2020/02/01 v1.7b
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxufont/pxufont.sty
+Package: pxufont 2020/02/09 v0.6
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifptex/ifuptex.sty
+Package: ifuptex 2019/11/01 v2.0 pTeX checker
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifptex/ifptex.sty
+Package: ifptex 2019/11/01 v2.0 pTeX checker
+))))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2020-02-03 L3 backend support: dvipdfmx
+\g__graphics_track_int=\count192
+\l__pdf_internal_box=\box64
+\g__pdf_backend_object_int=\count193
+\g__pdf_backend_annotation_int=\count194
+)
+(./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 21.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 21.
+\c@lstlisting=\count195
+
+*geometry* detected driver: dvipdfm
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvipdfm
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: truedimen 
+* h-part:(L,W,R)=(56.9055pt, 431.85823pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 657.92123pt, 56.9055pt)
+* \paperwidth=597.49146pt
+* \paperheight=845.04272pt
+* \textwidth=431.85823pt
+* \textheight=657.92123pt
+* \oddsidemargin=-9.09424pt
+* \evensidemargin=-9.09424pt
+* \topmargin=-37.54697pt
+* \headheight=14.22636pt
+* \headsep=14.22636pt
+* \topskip=12.76065pt
+* \footskip=22.76228pt
+* \marginparwidth=18.49365pt
+* \marginparsep=18.49365pt
+* \columnsep=18.49365pt
+* \skip\footins=16.0pt plus 5.0pt minus 2.0pt
+* \hoffset=0.00548pt
+* \voffset=0.00548pt
+* \mag=1095
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Light.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSerifCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Regular.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Bold.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Black.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+Package pxchfon Info: Font tribe is 'notoC':
+(pxchfon)                 :0:NotoSansCJK-Medium.ttc.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 22.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 22.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 15.9785pt on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 22.
+
+Overfull \vbox (19.24681pt too high) detected at line 22
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 22.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 22.
+[0
+
+]
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 25.
+ (./report.toc)
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ [1]
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 39.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 39.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 40.
+
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' will be
+(Font)              scaled to size 9.24683pt on input line 40.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' will be
+(Font)              scaled to size 9.24683pt on input line 40.
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 40.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 41.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+1.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 42.
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
+2.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 43.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 43.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 45.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 48.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 48.
+
+[2] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 7551 strings out of 482746
+ 108123 string characters out of 5956694
+ 477624 words of memory out of 5000000
+ 22852 multiletter control sequences out of 15000+600000
+ 541200 words of font info for 72 fonts, out of 8000000 for 9000
+ 336 hyphenation exceptions out of 8191
+ 40i,11n,57p,442b,1698s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report.dvi (3 pages, 12780 bytes).

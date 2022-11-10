@@ -1,0 +1,53 @@
+\documentclass[a4j,dvipdfmx,uplatex,11pt]{jsarticle}
+\usepackage{expreport}
+\usepackage{graphicx}
+\usepackage[truedimen]{geometry}
+
+\geometry{verbose,a4paper,tmargin=2cm,bmargin=2cm,lmargin=2cm,
+ rmargin=2cm,headheight=0.5cm,headsep=0.5cm,footskip=0.8cm}
+
+\usepackage[deluxe]{otf}
+\usepackage[noto-otc,unicode]{pxchfon}
+
+\subject{工 学 実 験 Ⅳ}
+\thema{コンピュータグラフィックス}
+\teachers{プロハースカ、高石、永田}
+\period{令和4年 10月6日 〜 11月17日}
+\deadline{令和4年 11月28日 (月曜日)}
+\pnumber{01} %出席番号
+\author{情報　太郎} %氏名
+
+
+\begin{document}
+ \maketitle
+ 
+
+\tableofcontents 
+ 
+\newpage 
+
+\section{実験の目的}
+
+...
+
+
+\section{課題2}
+
+
+リスト記述の例をリスト\ref{src:example}に示す。
+
+\begin{lstlisting}[style=pov,mathescape=true,caption={POV-Rayコードの例}, label={src:example}]
+#for( i, 0, 89)
+    object{
+        sphere { <1, 0, -2 > , 0.1}
+        pigment{color Orange }
+        finish{phong 1}
+        rotate <0, 0, 12*i>
+        translate <0, 0, 0.05*i>
+    }
+#end
+\end{lstlisting}
+
+
+ 
+\end{document}

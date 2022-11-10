@@ -1,10 +1,11 @@
 #include "colors.inc"
 #include "shapes.inc"
-#include "../utility.inc"
+#include "utility.inc"
 #include "textures.inc"
 #include "woods.inc"
 #include "glass.inc"
 #include "skies.inc"
+#include "stones.inc"
 
 #declare BallRadius = 0.05;
 #declare BallColor = Orange;
@@ -99,6 +100,8 @@
 
 #declare BottleN = dimension_size(BottleBP, 1);
 
+
+
 #declare BP = array[4];
 #declare BP[0] = <0, 0>;
 #declare BP[3] = <0.75, 0.02>;
@@ -163,12 +166,22 @@
 #declare BP = Merge_Arrays(BP, TMP);
 
 #declare TMP[0] = BP[dimension_size(BP, 1) - 1];
-#declare TMP[3] = <0.0, 1.5>;
+#declare TMP[3] = <0.0, 1.4>;
 #declare TMP[1] = TMP[0] + PtoR(0.3, -90);
-#declare TMP[2] = TMP[3] + PtoR(0.2, 90);
+#declare TMP[2] = TMP[3] + PtoR(0.4, 0);
 
 #declare BP = Merge_Arrays(BP, TMP);
 
+#declare TMP[0] = BP[dimension_size(BP, 1) - 1];
+#declare TMP[3] = <0.0, 0.0>;
+#declare TMP[1] = TMP[0] + PtoR(0.3, -90);
+#declare TMP[2] = TMP[3] + PtoR(0.4, 90);
+
+#declare BP = Merge_Arrays(BP, TMP);
+
+#declare GlassBP = BP;
+
+#declare GlassN = dimension_size(GlassBP, 1);
 // #declare TMP[0] = BP[dimension_size(BP, 1) - 1];
 // #declare TMP[3] = TMP[0] - <0.15, 0.3>;
 // #declare TMP[1] = TMP[0] + PtoR(0.1, -150);
@@ -178,57 +191,71 @@
 
 
 camera{
-    location <0, 1.0, -10> // カメラの位置
-    look_at <0.0, 1.0, 0> // 注視点の位置
-    angle 40 // 視角
+    location <0.5, 1.0, -5> // カメラの位置
+    look_at <0.5, 1.2, 0> // 注視点の位置
+    angle 60 // 視角
 }
 // 光源
 light_source{
-    <0, 0, -10> // 光源の位置
+    <10, 100, -100> // 光源の位置
     color White // 光源の色
 }
 
 
-object
-{
-    Reference_Image("wine_glass.png", 558, 800)
-    translate <-1.175, -0.35, -0.9>
-}
-// union{
-//     lathe{
-//         bezier_spline
-//         BottleN,
-//         #for(i, 0, BottleN-1)
-//             BP[i]
-//         #end
+// object
+// {
+//     Reference_Image("wine_glass.png", 558, 800)
+//     translate <-1.175, -0.35, -0.9>
+// }
+union{
+    lathe{
+        bezier_spline
+        BottleN,
+        #for(i, 0, BottleN-1)
+            BottleBP[i]
+        #end
 
-//         texture {
-//             pigment { Col_Glass_Winebottle }
-//             finish{ F_Glass1 }
-//         }
-//         interior { ior 1.5 }
-//     }
+        texture {
+            pigment { Col_Glass_Winebottle }
+            finish{ F_Glass1 }
+        }
+        interior { ior 1.5 }
+    }
 
-//     difference{
-//         cylinder{<0, 0, 0>, <0, 1, 0>, 0.42}
-//         cylinder{<0, 0, 0>, <0, 1.2, 0>, 0.41}
-//         pigment{image_map { png "wine_label.png" map_type 2 } }
-//         translate <0, 0.2, 0>
-//     }
+    difference{
+        cylinder{<0, 0, 0>, <0, 1, 0>, 0.42}
+        cylinder{<0, 0, 0>, <0, 1.2, 0>, 0.41}
+        pigment{image_map { png "wine_label.png" map_type 2 } }
+        translate <0, 0.2, 0>
+    }
     
-//     rotate <0, 90, 0>
-// }
+    rotate <0, 150, 0>
+}
+
+union{
+    lathe{
+        bezier_spline
+        GlassN,
+        #for(i, 0, GlassN-1)
+            GlassBP[i]
+        #end
+
+        material{ M_Glass3 }
+    }
+
+    
+    rotate <0, 90, 0>
+    translate <3, 0.0, 0>
+    scale <0.4, 0.7, 0.4>
+}
 
 
+object{
+    plane{ y, 0 rotate 2*x }
+    texture{T_Grnt23}
+}
 
-Draw_Spline(BP, "BZ")
-// object{
-//     plane{ y, 0 rotate 2*x }
-//     pigment{ color ForestGreen }
-//     normal { bumps 1 scale 0.01 }
-// }
+sky_sphere{ S_Cloud1 }
 
-// sky_sphere{ S_Cloud1 }
 
-Raster("XY")
 background{color White}

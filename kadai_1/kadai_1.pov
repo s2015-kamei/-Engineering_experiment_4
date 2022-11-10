@@ -1,6 +1,6 @@
 #include "colors.inc"
 #include "shapes.inc"
-#include "../utility.inc"
+#include "utility.inc"
 
 #declare tetrahedron_angle = 109.4711;
 #declare Carbon = union{

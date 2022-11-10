@@ -1,6 +1,6 @@
 #include "colors.inc"
 #include "shapes.inc"
-#include "../utility.inc"
+#include "utility.inc"
 #include "textures.inc"
 #include "woods.inc"
 

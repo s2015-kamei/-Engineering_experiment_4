@@ -1,2 +1,6 @@
 \contentsline {section}{\numberline {1}実験の目的}{2}%
-\contentsline {section}{\numberline {2}課題2}{2}%
+\contentsline {section}{\numberline {2}課題１}{2}%
+\contentsline {section}{\numberline {3}課題２}{5}%
+\contentsline {section}{\numberline {4}課題３}{8}%
+\contentsline {section}{\numberline {5}課題４}{11}%
+\contentsline {section}{\numberline {6}考察}{14}%

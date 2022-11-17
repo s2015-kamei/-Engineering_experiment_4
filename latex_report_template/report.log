@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.6.7)  10 NOV 2022 14:36
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.6.7)  17 NOV 2022 16:01
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -198,31 +198,41 @@ File: l3backend-dvipdfmx.def 2020-02-03 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count193
 \g__pdf_backend_annotation_int=\count194
 )
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `src:example' multiply defined.
+
+
+LaTeX Warning: Label `src:example' multiply defined.
+
+
+LaTeX Warning: Label `src:example' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 21.
+(Font)              scaled to size 9.24683pt on input line 22.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 21.
+(Font)              scaled to size 9.24683pt on input line 22.
 \c@lstlisting=\count195
 
 *geometry* detected driver: dvipdfm
@@ -475,100 +485,56 @@ Package pxchfon Info: Font tribe is 'notoC':
 Package pxchfon Info: Font tribe is 'notoC':
 (pxchfon)                 :0:NotoSansCJK-Medium.ttc.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 22.
+(Font)              scaled to size 9.24683pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 22.
+(Font)              scaled to size 9.24683pt on input line 23.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 22.
+(Font)              scaled to size 13.31541pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 22.
+(Font)              scaled to size 13.31541pt on input line 23.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 22.
+(Font)              scaled to size 15.9785pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 22.
+(Font)              scaled to size 15.9785pt on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
+(Font)              <5> on input line 23.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 22.
+(Font)              scaled to size 6.47278pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 22.
+(Font)              scaled to size 4.62341pt on input line 23.
 
-Overfull \vbox (19.24681pt too high) detected at line 22
+Overfull \vbox (19.24681pt too high) detected at line 23
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 22.
+(Font)              <14.4> on input line 23.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 22.
+(Font)              scaled to size 13.31541pt on input line 23.
 [0
 
 ]
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 25.
+(Font)              scaled to size 13.31541pt on input line 26.
  (./report.toc)
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
  [1]
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 39.
+(Font)              scaled to size 8.32214pt on input line 44.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 39.
+(Font)              scaled to size 8.32214pt on input line 44.
 
 
 LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 40.
+(Font)              using `JY2/hmc/bx/n' instead on input line 45.
 
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' will be
-(Font)              scaled to size 9.24683pt on input line 40.
+(Font)              scaled to size 9.24683pt on input line 45.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' will be
-(Font)              scaled to size 9.24683pt on input line 40.
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 40.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 41.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-1.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 42.
-
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
-2.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 43.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 43.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 44.
-
-
-LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 44.
-
+(Font)              scaled to size 9.24683pt on input line 45.
 
 LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
 (Font)              using `JY2/hmc/bx/n' instead on input line 45.
@@ -579,20 +545,1013 @@ LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
-(Font)              using `JY2/hmc/bx/n' instead on input line 48.
+(Font)              using `JY2/hmc/bx/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 46.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+6.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 47.
 
 
 LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
 (Font)              using `JY2/hmc/bx/n' instead on input line 48.
 
-[2] (./report.aux) ) 
-Here is how much of TeX's memory you used:
- 7551 strings out of 482746
- 108123 string characters out of 5956694
- 477624 words of memory out of 5000000
- 22852 multiletter control sequences out of 15000+600000
- 541200 words of font info for 72 fonts, out of 8000000 for 9000
- 336 hyphenation exceptions out of 8191
- 40i,11n,57p,442b,1698s stack positions out of 5000i,500n,10000p,200000b,80000s
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 48.
 
-Output written on report.dvi (3 pages, 12780 bytes).
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 50.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 50.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 52.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 53.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 54.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 54.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 60.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 61.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 61.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 62.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 62.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 64.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 65.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 66.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 66.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 70.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 70.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 70.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 71.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 74.
+
+[2]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 75.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 77.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 78.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 79.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 81.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 85.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 86.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 87.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 90.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 92.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 93.
+
+File: kadai_1.png Graphic file (type bmp)
+<kadai_1.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 119.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 119.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 120.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 120.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 121.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 121.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 121.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 121.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 122.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 122.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 122.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 124.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 124.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 124.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 125.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 128.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 128.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 128.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 128.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 129.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 130.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 131.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 134.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 134.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 135.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 136.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 139.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 141.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 144.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 144.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 145.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 147.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 148.
+
+[5
+
+]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 153.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 153.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 154.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 155.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 156.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 157.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 157.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 158.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 160.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 161.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 161.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 162.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 163.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 165.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 165.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 167.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 167.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 169.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 169.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 170.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 172.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 173.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 173.
+
+
+Overfull \hbox (33.56529pt too wide) in paragraph at lines 173--174
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 174.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 175.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 178.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 179.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 180.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 180.
+
+File: kadai_2.png Graphic file (type bmp)
+<kadai_2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 201.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 201.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 202.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 202.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 204.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 204.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 206.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 207.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 209.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 209.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 211.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 211.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 212.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 216.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 216.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 217.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 222.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 222.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 223.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 224.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 225.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 228.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 228.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 229.
+
+[8
+
+]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 236.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 236.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 237.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 238.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 239.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 242.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 242.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 243.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 252.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 252.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 252.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 254.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 254.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 255.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 256.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 257.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 260.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 262.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 262.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 264.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 264.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 265.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 266.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 266.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 266.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 267.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 267.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 267.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 267.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 268.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 268.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 268.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 268.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 268.
+
+
+Overfull \hbox (69.97864pt too wide) in paragraph at lines 268--269
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 269.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 269.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 269.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 269.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 269.
+
+
+Overfull \hbox (69.97864pt too wide) in paragraph at lines 269--270
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 270.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 270.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 270.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 270.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 270.
+
+
+Overfull \hbox (77.75644pt too wide) in paragraph at lines 270--271
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 271.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 271.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 271.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 271.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 271.
+
+
+Overfull \hbox (77.75644pt too wide) in paragraph at lines 271--272
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 272.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 272.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 272.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 272.
+
+[9]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 274.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 274.
+
+File: kadai_3.png Graphic file (type bmp)
+<kadai_3.png>
+[10]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 294.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 295.
+
+
+LaTeX Font Warning: Font shape `JT2/hmc/m/it' undefined
+(Font)              using `JT2/hmc/m/n' instead on input line 295.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/m/it' undefined
+(Font)              using `JY2/hmc/m/n' instead on input line 295.
+
+LaTeX Font Info:    Font shape `JT2/hmc/m/it' will be
+(Font)              scaled to size 9.24683pt on input line 295.
+LaTeX Font Info:    Font shape `JY2/hmc/m/it' will be
+(Font)              scaled to size 9.24683pt on input line 295.
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 296.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 297.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 300.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 302.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 306.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 307.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 308.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 310.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 312.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 314.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 315.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 316.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 318.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 318.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 321.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 322.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 323.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 324.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 324.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 324.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 324.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 325.
+
+[11
+
+]
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 328.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 331.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 332.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 333.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 335.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 337.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 339.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 343.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 344.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 345.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 349.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 350.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 350.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 350.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 350.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 351.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 354.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 357.
+
+
+LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
+(Font)              using `JY2/hmc/bx/n' instead on input line 357.
+
+File: kadai_4.png Graphic file (type bmp)
+<kadai_4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13] [14
+
+] (./report.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7701 strings out of 482746
+ 110179 string characters out of 5956694
+ 497624 words of memory out of 5000000
+ 22991 multiletter control sequences out of 15000+600000
+ 541546 words of font info for 73 fonts, out of 8000000 for 9000
+ 336 hyphenation exceptions out of 8191
+ 40i,11n,57p,925b,2058s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report.dvi (15 pages, 98120 bytes).
